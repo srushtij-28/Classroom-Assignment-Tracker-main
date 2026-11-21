@@ -1,0 +1,29 @@
+1. Features
+Add and manage student records.
+Create assignments for different subjects.
+Set assignment deadlines.
+Record student submissions.
+Track submitted and pending assignments.
+Search students by name or roll number.
+View assignment-wise submission reports.
+Delete assignments and student records.
+
+2. Project structure:
+Classroom_Assignment_Tracker/
+│
+├── main.py
+├── student_manager.py
+├── assignment_manager.py
+├── submission_manager.py
+├── reports.py
+├── storage.py
+├── utils.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── students.json
+    ├── assignments.json
+    └── submissions.json
